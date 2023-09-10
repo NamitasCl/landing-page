@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #181818;
+}
+
+.borde {
+    border: 1px solid red;
+}
+
+.altura {
+    padding: 100px;
+    background-color: orange;
+}
+
+li {
+    list-style-type: none;
+}
+
+.contenedor-header,
+.contenedor-random-info {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #212f42;
+}
+
+.cont-contenido {
+    width: 80%;
+    margin: 0 auto;
+} 
+
+.barra-superior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F9FAF8;
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+
+.barra-superior > p {
+    font-size: 2em;
+}
+
+.barra-superior ul {
+    display: flex;
+    font-size: 1.5em;
+    color: #E5E7EB;
+}
+
+.barra-superior ul li {
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+
+
+.barra-hero {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.izq, .der {
+    flex: 1 1 0;
+}
+
+.izq {
+    font-size: 1.5em;
+    color: #E5E7EB;
+}
+
+.izq > h1 {
+    font-size: 3em;
+    color: #F9FAF8;
+}
+
+.izq > p {
+    margin: 10px 0 20px 0;
+    font-size: 0.8em;
+}
+
+.izq > button {
+    font-size: 1.2em;
+    padding: 10px 60px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.der {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    background-color: #7a7e83; 
+}
+
+.contenedor-random-info {
+    background-color: #F9FAF8;
+    padding: 25px 0 0 0;
+}
+
+.contenedor-random-info > p {
+    padding: 30px 0;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-w-texts {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.sq-img {
+    width: 100px;
+    height: 100px;
+    border: 2.5px solid #3882F6;
+    border-radius: 10%;
+
+}
+
+.space {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 100;
+    width: 100px;
+    padding: 0px;
+    margin: 0 20px;
+}
+
+.comentarios {
+    background-color: #E5E7EB;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.comentarios > p {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.comentarios p:last-child {
+    font-weight: bolder;
+    font-size: 0.75em;
+    font-style: normal;
+    text-align: right;
+}
+
